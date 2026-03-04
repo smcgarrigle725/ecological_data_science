@@ -50,6 +50,7 @@ This repository contains code supporting two related manuscripts. Links and abst
 <sup>5</sup> School of Natural Resources and the Environment, University of Arizona, Tucson, Arizona, USA  
 
 <sup>\*</sup> Corresponding author
+
 **Code repository:** `wind_analysis_pipeline.ipynb`
 
 **Abstract:**
