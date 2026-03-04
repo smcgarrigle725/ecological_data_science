@@ -46,7 +46,7 @@ This repository contains code supporting two related manuscripts. Links and abst
 **Journal:** [Journal Name]  
 **Article page:** [Add link here when available]  
 **DOI:** [Add DOI here when available]  
-**Code repository:** 'wind_analysis_pipeline.ipynb'
+**Code repository:** `wind_analysis_pipeline.ipynb`
 
 **Abstract:**
 
