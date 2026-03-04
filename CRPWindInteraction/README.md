@@ -11,19 +11,21 @@ This repository contains code supporting two related manuscripts. Links and abst
 ### Manuscript 1 — Wind Energy × CRP Interaction Analysis
 *(code in this repository: `interaction_analysis_pipeline.ipynb`)*
 
-**Title:** Evaluating interactive effects of the Conservation Reserve Program and wind energy infrastructure on grassland bird abundance in the United States
-**Authors:** Samantha A. McGarrigle<sup>1*</sup>, Ellery Vaughn Lassiter<sup>1</sup>, Karen Maguire<sup>2</sup>, Rich Iovanna<sup>3</sup>, Jay Diffendorfer<sup>4</sup>, Anthony Lopez<sup>5</sup>, Kyle Reed<sup>2</sup>, Courtney Duchardt<sup>1,6</sup>, Scott Loss<sup>1</sup>
-**Affiliations:**
-<sup>1</sup> Department of Natural Resource Ecology and Management, Oklahoma State University, Stillwater, Oklahoma, USA
-<sup>2</sup> USDA Economic Research Service, U.S. Department of Agriculture, Kansas City, Missouri, USA
-<sup>3</sup> USDA Farm Production and Conservation Mission Area, Economic and Policy Analysis Division, Washington D.C., USA
-<sup>4</sup> United States Geological Survey, Geosciences and Environmental Change Science Center, Lakewood, CO, USA
-<sup>5</sup> U.S. Department of Energy, National Renewable Energy Laboratory, Golden, Colorado, USA
-<sup>6</sup> School of Natural Resources and the Environment, University of Arizona, Tucson, Arizona, USA
-<sup>*</sup> Corresponding author
+**Title:** Evaluating interactive effects of the Conservation Reserve Program and wind energy infrastructure on grassland bird abundance in the United States  
+**Authors:** Samantha A. McGarrigle<sup>1\*</sup>, Ellery Vaughn Lassiter<sup>1</sup>, Karen Maguire<sup>2</sup>, Rich Iovanna<sup>3</sup>, Jay Diffendorfer<sup>4</sup>, Anthony Lopez<sup>5</sup>, Kyle Reed<sup>2</sup>, Courtney Duchardt<sup>1,6</sup>, Scott Loss<sup>1</sup>  
 **Journal:** [Journal Name]  
 **Article page:** [Add link here when available]  
 **DOI:** [Add DOI here when available]
+
+**Affiliations:**  
+<sup>1</sup> Department of Natural Resource Ecology and Management, Oklahoma State University, Stillwater, Oklahoma, USA  
+<sup>2</sup> USDA Economic Research Service, U.S. Department of Agriculture, Kansas City, Missouri, USA  
+<sup>3</sup> USDA Farm Production and Conservation Mission Area, Economic and Policy Analysis Division, Washington D.C., USA  
+<sup>4</sup> United States Geological Survey, Geosciences and Environmental Change Science Center, Lakewood, CO, USA  
+<sup>5</sup> U.S. Department of Energy, National Renewable Energy Laboratory, Golden, Colorado, USA  
+<sup>6</sup> School of Natural Resources and the Environment, University of Arizona, Tucson, Arizona, USA  
+
+<sup>\*</sup> Corresponding author
 
 **Abstract:**
 
@@ -34,18 +36,20 @@ This repository contains code supporting two related manuscripts. Links and abst
 ### Manuscript 2 — Wind Energy Only Analysis
 *(code in a separate repository)*
 
-**Title:** Using eBird citizen science data to examine associations between wind energy development and grassland bird abundance across the United States
-**Authors:** Samantha A. McGarrigle<sup>1*</sup>, Ellery Vaughn Lassiter<sup>1</sup>, Karen Maguire<sup>2</sup>, Rich Iovanna<sup>3</sup>, Jay Diffendorfer<sup>4</sup>, Courtney Duchardt<sup>1,5</sup>, Scott Loss<sup>1</sup>
-**Affiliations:**
-<sup>1</sup> Department of Natural Resource Ecology and Management, Oklahoma State University, Stillwater, Oklahoma, USA
-<sup>2</sup> USDA Economic Research Service, U.S. Department of Agriculture, Kansas City, Missouri, USA
-<sup>3</sup> USDA Farm Production and Conservation Mission Area, Economic and Policy Analysis Division, Washington D.C., USA
-<sup>4</sup> United States Geological Survey, Geosciences and Environmental Change Science Center, Lakewood, CO, USA
-<sup>5</sup> School of Natural Resources and the Environment, University of Arizona, Tucson, Arizona, USA
-<sup>*</sup> Corresponding author
+**Title:** Evaluating interactive effects of the Conservation Reserve Program and wind energy infrastructure on grassland bird abundance in the United States  
+**Authors:** Samantha A. McGarrigle<sup>1\*</sup>, Ellery Vaughn Lassiter<sup>1</sup>, Karen Maguire<sup>2</sup>, Rich Iovanna<sup>3</sup>, Jay Diffendorfer<sup>4</sup>, Courtney Duchardt<sup>1,5</sup>, Scott Loss<sup>1</sup>  
 **Journal:** [Journal Name]  
 **Article page:** [Add link here when available]  
-**DOI:** [Add DOI here when available]  
+**DOI:** [Add DOI here when available]
+
+**Affiliations:**  
+<sup>1</sup> Department of Natural Resource Ecology and Management, Oklahoma State University, Stillwater, Oklahoma, USA  
+<sup>2</sup> USDA Economic Research Service, U.S. Department of Agriculture, Kansas City, Missouri, USA  
+<sup>3</sup> USDA Farm Production and Conservation Mission Area, Economic and Policy Analysis Division, Washington D.C., USA  
+<sup>4</sup> United States Geological Survey, Geosciences and Environmental Change Science Center, Lakewood, CO, USA  
+<sup>5</sup> School of Natural Resources and the Environment, University of Arizona, Tucson, Arizona, USA  
+
+<sup>\*</sup> Corresponding author
 **Code repository:** `wind_analysis_pipeline.ipynb`
 
 **Abstract:**
