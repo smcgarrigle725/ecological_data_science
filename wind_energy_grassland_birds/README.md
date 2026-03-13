@@ -188,11 +188,7 @@ Both pipelines use generic placeholder names that must be replaced with species-
  
 ## Citation
  
-If you use or adapt this code, please cite the associated articles:
- 
-> [Author Names] ([Year]). [Full article title]. *[Journal Name]*, [Volume]([Issue]), [Pages]. [DOI]
- 
-> [Author Names] ([Year]). [Full article title]. *[Journal Name]*, [Volume]([Issue]), [Pages]. [DOI]
+Citations will be added once manuscripts are accepted for publication. 
  
 ---
  
