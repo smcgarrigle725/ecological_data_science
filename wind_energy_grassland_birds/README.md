@@ -2,6 +2,10 @@
 
 ---
 
+This repository contains the complete R analysis pipelines supporting two related manuscripts on grassland bird responses to wind energy infrastructure and Conservation Reserve Program (CRP) enrollment across the continental United States. Both studies model species relative abundance using citizen science eBird data and generalized additive models (GAMs) at continental scale, covering 27 grassland-obligate bird species across their breeding ranges.
+
+---
+
 ## Associated Publications
 
 This repository contains code supporting two related manuscripts. Links and abstracts will be added upon publication.
@@ -59,26 +63,28 @@ This repository contains code supporting two related manuscripts. Links and abst
 
 ---
 
-## Overview
-
-This repository contains the complete R analysis pipeline for Manuscript 1 (above). The workflow models species abundance in relation to wind energy infrastructure and Conservation Reserve Program (CRP) enrollment, using citizen science data from eBird and spatially matched covariates.
-
-The pipeline proceeds from raw eBird data extraction through spatial filtering, covariate joining, model selection, diagnostics, and figure generation. All code is provided as a Jupyter Notebook (R kernel) to facilitate step-by-step reproducibility.
-
----
-
 ## Repository Contents
 
 ```
 .
 ├── README.md
-└── interaction_analysis_pipeline.ipynb     # Full R analysis notebook (15 parts)
+├── interaction_analysis_pipeline.ipynb     # Full pipeline — Manuscript 1 (15 parts)
+├── wind_analysis_pipeline.ipynb            # Full pipeline — Manuscript 2 (11 parts)
+├── example_interaction_species.ipynb       # Worked example — interaction analysis
+├── example_wind_species.ipynb              # Worked example — wind-only analysis
+├── data/
+│   └── README.md                           # Dataset descriptions and access instructions
+└── outputs/
+    └── README.md                           # Figure descriptions
 ```
 
 ---
 
-## Notebook Structure
-
+## Pipeline Structure
+ 
+### Interaction Analysis Pipeline (`interaction_analysis_pipeline.ipynb`)
+*15-part workflow for Manuscript 1*
+ 
 | Part | Description |
 |------|-------------|
 | 1 | eBird data extraction, zero-filling, effort filtering |
@@ -96,17 +102,33 @@ The pipeline proceeds from raw eBird data extraction through spatial filtering, 
 | 13 | Combined wind + CRP models (additive and interaction structures) |
 | 14 | Top model diagnostics (variance components, ANOVA, residual plots) |
 | 15 | Figure generation (predicted abundance vs. focal predictors) |
-
+ 
+### Wind-Only Analysis Pipeline (`wind_analysis_pipeline.ipynb`)
+*11-part workflow for Manuscript 2*
+ 
+| Part | Description |
+|------|-------------|
+| 1 | eBird data extraction, zero-filling, effort filtering |
+| 2 | Spatial clipping to breeding range, hexagonal grid assignment, annual subsampling |
+| 3 | Joining land cover and wind turbine datasets |
+| 4 | Wind variable categorization |
+| 5 | Correlation matrix |
+| 6 | Z-score standardization and 80/20 train/test split |
+| 7 | Distribution family evaluation via null GAMs |
+| 8 | Univariate screening of effort, land cover, and wind covariates |
+| 9 | Full wind candidate model fitting (with effort + land cover) |
+| 10 | Top model diagnostics |
+| 11 | Figure generation |
+ 
 ---
-
+ 
 ## Requirements
-
+ 
 ### R Version
 R ≥ 4.2.0 recommended.
-
+ 
 ### R Packages
-Install all required packages with:
-
+ 
 ```r
 install.packages(c(
   "tidyverse", "lubridate",
@@ -116,71 +138,74 @@ install.packages(c(
   "AICcmodavg", "MuMIn", "DescTools", "pdp",
   "auk", "ebirdst"
 ))
-
+ 
 # zigam is not on CRAN — install from GitHub:
 # devtools::install_github("dill/zigam")
 ```
-
+ 
 ### Jupyter with R Kernel
-To run this notebook, you need Jupyter and the R kernel (`IRkernel`):
-
+ 
 ```r
 install.packages("IRkernel")
 IRkernel::installspec()
 ```
-
-Then launch with:
+ 
 ```bash
-jupyter notebook analysis_pipeline.ipynb
+jupyter notebook interaction_analysis_pipeline.ipynb
 ```
-
-Alternatively, the `.ipynb` file can be opened in [VS Code](https://code.visualstudio.com/) with the Jupyter extension, or viewed (non-interactively) directly on GitHub.
-
+ 
+The `.ipynb` files can also be opened in VS Code with the Jupyter extension or viewed non-interactively on GitHub.
+ 
 ---
-
-## Data Requirements
-
-This notebook requires several input datasets that are **not included** in this repository due to size and licensing constraints:
-
-| Dataset | Source | Notes |
-|---------|--------|-------|
-| eBird Basic Dataset (EBD) | [Cornell Lab of Ornithology](https://ebird.org/data/download) | Requires free registration; filter to target species |
-| Species range maps | [eBird Status & Trends](https://science.ebird.org/en/status-and-trends) | Accessed via `ebirdst` package |
-| US border shapefile | [U.S. Census Bureau TIGER/Line](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html) | Cartographic boundary files |
-| Land cover (PLAND) | [NLCD](https://www.mrlc.gov/) or derived product | Proportion of landscape by class per grid cell |
-| Wind turbine data | [USGS Wind Turbine Database](https://www.sciencebase.gov/catalog/item/57bdfd8fe4b03fd6b7df5ff9) | Pre-processed to cell-year summaries |
-| CRP enrollment data | [USDA Farm Service Agency](https://www.fsa.usda.gov/programs-and-services/conservation-programs/conservation-reserve-program/) | Requires custom spatial processing |
-
-Update all file paths in the notebook (marked `"path/to/..."`) to match your local directory structure before running.
-
+ 
+## Data
+ 
+Input datasets are not included in this repository. See [`data/README.md`](data/README.md) for full descriptions, column definitions, and access instructions for all required datasets, including:
+ 
+- eBird Basic Dataset (Cornell Lab of Ornithology)
+- Species breeding range maps (eBird Status & Trends via `ebirdst`)
+- US border shapefile (US Census Bureau TIGER/Line)
+- Land cover PLAND summaries derived from NLCD
+- USGS Wind Turbine Database (preprocessed to cell-year summaries)
+- USDA CRP enrollment data (interaction analysis only)
+ 
+Several datasets required spatial preprocessing in QGIS prior to use in R. This is documented in `data/README.md` and in the associated manuscripts.
+ 
 ---
-
-## Placeholders to Replace
-
-Several variable names in the notebook are generic and must be replaced with your specific covariate names after completing the univariate screening steps (Parts 9–10):
-
+ 
+## Placeholders
+ 
+Both pipelines use generic placeholder names that must be replaced with species- and covariate-specific values before running. See the example species notebooks for worked demonstrations.
+ 
 | Placeholder | Replace with |
 |-------------|-------------|
 | `species_name_here` | eBird species name string (e.g., `"Henslow's Sparrow"`) |
-| `wind_variable` | Best-supported wind metric (e.g., `WindCount`, `WindPA`) |
-| `crp_variable` | Best-supported CRP metric (e.g., `CRP_area`, `Hab_PercentGrassland`) |
-
+| `wind_variable` | Best-supported wind metric from screening (e.g., `WindCount`, `WindRSA`) |
+| `crp_variable` | Best-supported CRP metric from screening (e.g., `CRP_area`, `Hab_PercentGrassland`) |
+| `"path/to/..."` | Local file paths to input datasets |
+ 
 ---
-
+ 
 ## Citation
-
-If you use or adapt this code, please cite the associated article:
-
+ 
+If you use or adapt this code, please cite the associated articles:
+ 
 > [Author Names] ([Year]). [Full article title]. *[Journal Name]*, [Volume]([Issue]), [Pages]. [DOI]
-
+ 
+> [Author Names] ([Year]). [Full article title]. *[Journal Name]*, [Volume]([Issue]), [Pages]. [DOI]
+ 
 ---
-
+ 
 ## License
-
+ 
 This code is released under the [MIT License](https://opensource.org/licenses/MIT). Data products derived from eBird and other sources are subject to their respective terms of use.
-
+ 
 ---
-
+ 
 ## Contact
-
-For questions about the analysis, please contact [corresponding author name] at [email address].
+ 
+For questions about the analysis please contact Samantha McGarrigle.
+ 
+---
+ 
+*ecological_data_science - Samantha McGarrigle*
