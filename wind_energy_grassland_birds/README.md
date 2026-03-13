@@ -17,9 +17,9 @@ This repository contains code supporting two related manuscripts. Links and abst
 
 **Title:** Evaluating interactive effects of the Conservation Reserve Program and wind energy infrastructure on grassland bird abundance in the United States  
 **Authors:** Samantha A. McGarrigle<sup>1\*</sup>, Ellery Vaughn Lassiter<sup>1</sup>, Karen Maguire<sup>2</sup>, Rich Iovanna<sup>3</sup>, Jay Diffendorfer<sup>4</sup>, Anthony Lopez<sup>5</sup>, Kyle Reed<sup>2</sup>, Courtney Duchardt<sup>1,6</sup>, Scott Loss<sup>1</sup>  
-**Journal:** [Journal Name]  
-**Article page:** [Add link here when available]  
-**DOI:** [Add DOI here when available]
+**Journal:** Royal Society Open Science 
+**Article page:** To be added
+**DOI:** To be added
 
 **Affiliations:**  
 <sup>1</sup> Department of Natural Resource Ecology and Management, Oklahoma State University, Stillwater, Oklahoma, USA  
@@ -42,9 +42,9 @@ This repository contains code supporting two related manuscripts. Links and abst
 
 **Title:** Evaluating interactive effects of the Conservation Reserve Program and wind energy infrastructure on grassland bird abundance in the United States  
 **Authors:** Samantha A. McGarrigle<sup>1\*</sup>, Ellery Vaughn Lassiter<sup>1</sup>, Karen Maguire<sup>2</sup>, Rich Iovanna<sup>3</sup>, Jay Diffendorfer<sup>4</sup>, Courtney Duchardt<sup>1,5</sup>, Scott Loss<sup>1</sup>  
-**Journal:** [Journal Name]  
-**Article page:** [Add link here when available]  
-**DOI:** [Add DOI here when available]
+**Journal:** Still in Review
+**Article page:** To be Added
+**DOI:** To be Added
 
 **Affiliations:**  
 <sup>1</sup> Department of Natural Resource Ecology and Management, Oklahoma State University, Stillwater, Oklahoma, USA  
