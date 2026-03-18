@@ -1,0 +1,49 @@
+# AWS credentials — NEVER commit these
+.env
+*.env
+.aws/
+credentials
+aws_credentials.json
+
+# Data files — not included in repo (see data/README.md)
+data/*.csv
+data/*.xlsx
+data/*.tsv
+outputs/*.csv
+outputs/*.png
+outputs/*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Node / React
+node_modules/
+dist/
+.next/
+*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
