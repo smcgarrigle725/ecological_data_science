@@ -1,0 +1,97 @@
+Species,Water,Rep,Sediment,Container,Total,Burrow_type,Burrow_num,Burrow_prop
+Snail,Control,1,Control,25,20,Not,16,0.8
+Snail,Control,1,Acidified ,26,20,Not,10,0.5
+Snail,Control,1,Control,27,20,Not,9,0.45
+Snail,Control,1,Acidified ,28,20,Not,17,0.85
+Snail,Control,1,Control,29,20,Not,13,0.65
+Snail,Control,1,Acidified ,30,20,Not,13,0.65
+Snail,Control,2,Control,31,20,Not,14,0.7
+Snail,Control,2,Acidified ,32,20,Not,13,0.65
+Snail,Control,2,Control,33,20,Not,8,0.4
+Snail,Control,2,Acidified ,34,20,Not,13,0.65
+Snail,Control,2,Control,35,20,Not,18,0.9
+Snail,Control,2,Acidified ,36,20,Not,12,0.6
+Snail,Acidified,1,Control,37,20,Not,6,0.3
+Snail,Acidified,1,Acidified ,38,20,Not,18,0.9
+Snail,Acidified,1,Control,39,20,Not,17,0.85
+Snail,Acidified,1,Acidified ,40,20,Not,7,0.35
+Snail,Acidified,1,Control,41,20,Not,13,0.65
+Snail,Acidified,1,Acidified ,42,20,Not,18,0.9
+Snail,Acidified,2,Control,43,20,Not,10,0.5
+Snail,Acidified,2,Acidified ,44,20,Not,17,0.85
+Snail,Acidified,2,Control,45,20,Not,12,0.6
+Snail,Acidified,2,Acidified ,46,20,Not,20,1
+Snail,Acidified,2,Control,47,20,Not,9,0.45
+Snail,Acidified,2,Acidified ,48,20,Not,18,0.9
+Snail,Control,1,Control,25,20,Complete,4,0.2
+Snail,Control,1,Acidified ,26,20,Complete,10,0.5
+Snail,Control,1,Control,27,20,Complete,11,0.55
+Snail,Control,1,Acidified ,28,20,Complete,3,0.15
+Snail,Control,1,Control,29,20,Complete,7,0.35
+Snail,Control,1,Acidified ,30,20,Complete,7,0.35
+Snail,Control,2,Control,31,20,Complete,6,0.3
+Snail,Control,2,Acidified ,32,20,Complete,7,0.35
+Snail,Control,2,Control,33,20,Complete,12,0.6
+Snail,Control,2,Acidified ,34,20,Complete,7,0.35
+Snail,Control,2,Control,35,20,Complete,2,0.1
+Snail,Control,2,Acidified ,36,20,Complete,8,0.4
+Snail,Acidified,1,Control,37,20,Complete,14,0.7
+Snail,Acidified,1,Acidified ,38,20,Complete,2,0.1
+Snail,Acidified,1,Control,39,20,Complete,3,0.15
+Snail,Acidified,1,Acidified ,40,20,Complete,13,0.65
+Snail,Acidified,1,Control,41,20,Complete,7,0.35
+Snail,Acidified,1,Acidified ,42,20,Complete,2,0.1
+Snail,Acidified,2,Control,43,20,Complete,10,0.5
+Snail,Acidified,2,Acidified ,44,20,Complete,3,0.15
+Snail,Acidified,2,Control,45,20,Complete,8,0.4
+Snail,Acidified,2,Acidified ,46,20,Complete,0,0
+Snail,Acidified,2,Control,47,20,Complete,11,0.55
+Snail,Acidified,2,Acidified ,48,20,Complete,2,0.1
+Corophium,Control,1,Control,1,14,Not,1,0.071428571
+Corophium,Control,1,Acidified ,2,19,Not,12,0.631578947
+Corophium,Control,1,Control,3,14,Not,1,0.071428571
+Corophium,Control,1,Acidified ,4,22,Not,9,0.409090909
+Corophium,Control,1,Control,5,21,Not,1,0.047619048
+Corophium,Control,1,Acidified ,6,17,Not,7,0.411764706
+Corophium,Control,2,Control,7,13,Not,6,0.461538462
+Corophium,Control,2,Acidified ,8,19,Not,12,0.631578947
+Corophium,Control,2,Control,9,10,Not,5,0.5
+Corophium,Control,2,Acidified ,10,6,Not,5,0.833333333
+Corophium,Control,2,Control,11,14,Not,3,0.214285714
+Corophium,Control,2,Acidified ,12,17,Not,10,0.588235294
+Corophium,Acidified,1,Control,13,21,Not,7,0.333333333
+Corophium,Acidified,1,Acidified ,14,26,Not,13,0.5
+Corophium,Acidified,1,Control,15,20,Not,1,0.05
+Corophium,Acidified,1,Acidified ,16,17,Not,15,0.882352941
+Corophium,Acidified,1,Control,17,8,Not,3,0.375
+Corophium,Acidified,1,Acidified ,18,15,Not,5,0.333333333
+Corophium,Acidified,2,Control,19,10,Not,3,0.3
+Corophium,Acidified,2,Acidified ,20,13,Not,6,0.461538462
+Corophium,Acidified,2,Control,21,19,Not,5,0.263157895
+Corophium,Acidified,2,Acidified ,22,11,Not,3,0.272727273
+Corophium,Acidified,2,Control,23,15,Not,0,0
+Corophium,Acidified,2,Acidified ,24,9,Not,4,0.444444444
+Corophium,Control,1,Control,1,14,Complete,13,0.928571429
+Corophium,Control,1,Acidified ,2,19,Complete,7,0.368421053
+Corophium,Control,1,Control,3,14,Complete,13,0.928571429
+Corophium,Control,1,Acidified ,4,22,Complete,13,0.590909091
+Corophium,Control,1,Control,5,21,Complete,20,0.952380952
+Corophium,Control,1,Acidified ,6,17,Complete,10,0.588235294
+Corophium,Control,2,Control,7,13,Complete,7,0.538461538
+Corophium,Control,2,Acidified ,8,19,Complete,7,0.368421053
+Corophium,Control,2,Control,9,10,Complete,5,0.5
+Corophium,Control,2,Acidified ,10,6,Complete,1,0.166666667
+Corophium,Control,2,Control,11,14,Complete,11,0.785714286
+Corophium,Control,2,Acidified ,12,17,Complete,7,0.411764706
+Corophium,Acidified,1,Control,13,21,Complete,14,0.666666667
+Corophium,Acidified,1,Acidified ,14,26,Complete,13,0.5
+Corophium,Acidified,1,Control,15,20,Complete,19,0.95
+Corophium,Acidified,1,Acidified ,16,17,Complete,2,0.117647059
+Corophium,Acidified,1,Control,17,8,Complete,5,0.625
+Corophium,Acidified,1,Acidified ,18,15,Complete,10,0.666666667
+Corophium,Acidified,2,Control,19,10,Complete,7,0.7
+Corophium,Acidified,2,Acidified ,20,13,Complete,7,0.538461538
+Corophium,Acidified,2,Control,21,19,Complete,14,0.736842105
+Corophium,Acidified,2,Acidified ,22,11,Complete,8,0.727272727
+Corophium,Acidified,2,Control,23,15,Complete,15,1
+Corophium,Acidified,2,Acidified ,24,9,Complete,5,0.555555556
